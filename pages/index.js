@@ -16,7 +16,7 @@ import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
   return (
-    <>
+    <Layout>
       <Container>
         <Box
           borderRadius="lg"
@@ -102,7 +102,7 @@ const Page = () => {
           <Paragraph>Art, Manga, Light Novels, Anime, Web Series</Paragraph>
         </Section>
       </Container>
-    </>
+    </Layout>
   )
 }
 export default Page
